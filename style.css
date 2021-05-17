@@ -1,11 +1,12 @@
 body {
     margin: 0;
     min-width: 1200px;
-    font-family: "Arial", 'Times New Roman', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #1B1A17;
+    background-color: #FDFDFB;
 }
 
 .container {
@@ -28,9 +29,13 @@ a {
     color: inherit;
 }
 
+.main-header {
+    margin-bottom: 20px;
+}
+
 .main-header-nav {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .main-header-logo {
@@ -73,3 +78,88 @@ a {
     margin-left: 23px;
     padding: 35px 0 18px 0;
 }
+
+.promo {
+    background-image: url('img/watch-rado-promo.png'), url('img/Ellipse.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 55.2% 0, 39.1% 0;
+    width: 100%;
+    height: 804px;
+    margin-bottom: 50px;
+}
+
+.promo-wrapper {
+    display: flex;
+    /* align-items: center; */
+    height: 100%;
+}
+
+
+.promo-text-colomn {
+    width: 400px;
+    padding-top: 236px;
+    padding-bottom: 236px;
+}
+
+.promo-title,
+.promo-heading {
+    font-family: "Playfair Display", Times, serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.promo-title {
+    font-size: 45px;
+    line-height: 60px;
+    padding-bottom: 16px;
+}
+
+.promo-heading {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 40px;
+}
+
+.promo-text {
+    margin: 0;
+    padding: 0 0 97px 0;
+    font-weight: 300;
+    line-height: 21px;
+    opacity: 0.82;
+    width: 270px;
+}
+
+.button {
+    background-color: #444240;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    padding: 27px 38px;
+}
+
+.promo-price,
+.promo-diametr {
+    font-family: "Prata", Times, serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.promo-price {
+    width: 404px;
+    padding-top: 138px ;
+}
+
+.promo-price p,
+.promo-diametr p {
+    margin: 0;
+}
+
+.promo-diametr {
+    padding-top: 647px;
+}
+
