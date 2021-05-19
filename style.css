@@ -328,6 +328,7 @@ a {
     margin: 0;
     padding: 0;
     display: flex;
+    align-items: flex-end;
 }
 
 .social-item {
@@ -350,6 +351,63 @@ a {
     margin-right: 10px;
 }
 
+.main-footer {
+    background-color: #444240;
+    color: #FFFFFF;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 67px; */
+}
+
+.contacts img {
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.about,
+.for-customers,
+.payment-delivery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 33px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+}
+
+.contacts-item {
+    list-style: none;
+}
+
+.link-item {
+    display: inline-block;
+}
+
+.contacts-item,
+.link-item {
+    font-size: 12px;
+    line-height: 14px;  
+    opacity: 75%;
+    padding-bottom: 15px;
+}
+
+/* ul a.link-item:last-child {
+    padding-bottom: 0;
+} */
 
 
 
