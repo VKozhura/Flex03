@@ -12,6 +12,7 @@ body {
     background-color: #FDFDFB;
 }
 
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -349,6 +350,81 @@ a {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 10px;
+}
+
+.breadcrumbs {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    list-style: none;
+
+    display: flex;
+}
+
+.breadcrumbs-item {
+    margin-right: 14px;
+    font-weight: 500;
+    color: #B3B3B3;
+}
+
+.breadcrumbs-link {
+    text-decoration: none;
+}
+
+.breadcrumbs-current {
+    color: #555248;
+}
+
+.catalog-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-title,
+.catalog-sorting {
+    padding: 0;
+    margin: 0;
+}
+
+.catalog-title {
+    font-family: "Playfair Display", Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px; 
+    padding-bottom: 38px;
+}
+
+.catalog-content-wrapper {
+    display: flex;
+}
+
+.filter-colomn {
+    width: 245px;
+    margin-right: 94px;
+}
+
+.catalog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pagination-list {
+    text-align: right;
+}
+
+.pagination-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.accessories-header-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-footer {
