@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Prata&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Карточка товара</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header-nav container">
+            <a class="main-header-logo" href="index.html">
+                <img src="img/logo-header.svg" alt="Магазин часов CONQUEST" width="104" height="26">
+            </a>
+            <ul class="site-navigation">
+               <li class="site-navigation-item">
+                   <a class="link-item" href="#">Каталог</a>
+                </li>
+               <li class="site-navigation-item">
+                   <a class="link-item" href="#">Акции</a>
+                </li>
+               <li class="site-navigation-item">
+                   <a class="link-item" href="#">Доставка</a>
+                </li>
+               <li class="site-navigation-item">
+                   <a class="link-item" href="#">Контакты</a>
+                </li>
+            </ul>
+            <ul class="user-navigation">
+                <li class="user-navigation-item">
+                    <a class="link-item" href="#">
+                        <img src="img/loupe.svg" alt="Поиск" width="20" height="16">
+                    </a>
+                </li>
+                <li class="user-navigation-item">
+                    <a class="link-item" href="#"><img src="img/heart.svg" alt="Избранное" width="20" height="16">
+                    </a>
+                </li>
+                <li class="user-navigation-item">
+                    <a class="link-item" href="#"><img src="img/cart.svg" alt="Корзина" width="20" height="16">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="index.html">Главная</a></li>
+                <li class="breadcrumbs-item">&#62</li>
+                <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="">Каталог</a></li>
+                <li class="breadcrumbs-item">&#62</li>
+                <li class="breadcrumbs-item">Мужские часы</li>
+                <li class="breadcrumbs-item">&#62</li>
+                <li class="breadcrumbs-item breadcrumbs-current">Georg Jensen</li>
+            </ul>
+        </div>
+        <section class="card">
+            <h1 class="visually-hidden">Card «Georg Jensen»</h1>
+            <div class="card-wrapper container">
+                <div class="card-photos-column">
+                    <img src="img/watch_card_1.jpg" alt="Часы" width="423" height="520">
+                    <ul class="card-proto-preview">
+                        <li class="card-proto-preview-item">
+                            <img src="img/watches_2.jpg" alt="" width="127" height="121">
+                        </li>
+                        <li class="card-proto-preview-item">
+                            <img src="img/watches_3.jpg" alt="" width="127" height="121">
+                        </li>
+                        <li class="card-proto-preview-item">
+                            <img src="img/watches_4.jpg" alt="" width="127" height="121">
+                        </li>
+                        <li class="card-proto-preview-item">
+                            <img src="img/watches_5.jpg" alt="" width="127" height="121">
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-description-column">
+                    <h2 class="card-description-header">Kulte, 26 мм</h2>
+                    <p class="card-description-price">12 700 Р</p>
+                    <span class="card-description-menu">
+                        <h3>Описание</h3>
+                    </span>
+                    <span class="card-description-menu">
+                        <h3>Технические характеристики</h3>
+                    </span>
+                    <p class="card-description-text">Наручные часы KULTE, разработанные датским дизайнером Хэннингом Коппелем, были выпущены в 1982 году. Они были встречены аплодисментами, а дизайн считался революционным.</p>
+                    <p class="card-description-text">Общая эстетика минималистична, а острые, плавные линии корпуса стали легендарными. Механизм Swiss Made обеспечивает высокий уровень технических характеристик.</p>
+                    <p class="card-description-text">Наручные часы KULTE — это образец датского дизайнерского наследия, история баланса и точности как внутри, так и снаружи.</p>
+                    <button class="button" type="submit">В корзину</button>
+                </div>
+            </div>
+        </section>
+        <section class="similar container">
+            <h2 class="similar-title">Вы смотрели</h2>
+            <ul class="similar-list">
+                <li class="similar-item">
+                    <h3 class="item-brand">Techne</h3>
+                    <p class="item-price">15 700 Р</p>
+                    <img src="img/часы1.jpg" alt="" width="360" height="374">
+                </li>
+                <li class="similar-item">
+                    <h3 class="item-brand">Techne</h3>
+                    <p class="item-price">15 700 Р</p>
+                    <img src="img/часы2.jpg" alt="" width="360" height="374">
+                </li>
+                <li class="similar-item">
+                    <h3 class="item-brand">Techne</h3>
+                    <p class="item-price">22 700 Р</p>
+                    <img src="img/часы3.jpg" alt="" width="360" height="374">
+                </li>
+            </ul>
+
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <nav class="footer-nav container">
+            <div class="contacts">
+                <img src="img/logo-footer.svg" alt="Логотип магазина часов" width="130" height="35">
+                <li class="contacts-item">8 (499) 450-47-97</li>
+                <li class="contacts-item">info@conquest.watch.ru</li>
+            </div>
+            <ul class="about">
+                <h3 class="nav-title">О компании</h3>
+                <li class="about-item"> <a class="link-item" href="#">Наши магазины</a> </li>
+                <li class="about-item"> <a class="link-item" href="#">Вакансии</a> </li>
+                <li class="about-item"> <a class="link-item" href="#">Сертификаты</a> </li>
+                <li class="about-item"> <a class="link-item" href="#">Отзывы</a> </li>
+            </ul>
+
+            <ul class="for-customers">
+                <h3 class="nav-title">Покупателям</h3>
+                <li class="for-customers-item"> <a href="#" class="link-item">Каталог товаров</a> </li>
+                <li class="for-customers-item"> <a href="#" class="link-item">Как заказать?</a> </li>
+                <li class="for-customers-item"> <a href="#" class="link-item">FAQ</a> </li>
+                <li class="for-customers-item"> <a href="#" class="link-item">Корпоративным клиентам</a> </li>
+            </ul>
+                <ul class="payment-delivery"> 
+                    <h3 class="nav-title">Оплата и доставка</h3>
+                    <li class="payment-delivery-item"> <a href="#" class="link-item">Способы оплаты</a> </li>
+                    <li class="payment-delivery-item"> <a href="#" class="link-item">Время доставки</a> </li>
+                    <li class="payment-delivery-item"> <a href="#" class="link-item">Гарантии и ремонт</a> </li>
+                    <li class="payment-delivery-item"> <a href="#" class="link-item">Возврат и компенсация</a> </li>
+                </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

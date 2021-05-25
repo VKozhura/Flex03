@@ -427,6 +427,39 @@ a {
     justify-content: space-between;
 }
 
+.card-wrapper {
+    display: flex;
+    justify-content: space-between
+}
+
+.card-photo-column {
+    width: 570px;
+}
+
+.card-proto-preview {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-proto-preview-item {
+    margin-right: 17px;
+}
+
+.card-description-column {
+    width: 565px;
+}
+
+.similar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
 .main-footer {
     background-color: #444240;
     color: #FFFFFF;
